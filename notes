@@ -1,0 +1,436 @@
+0   goal
+2   yellow_card
+3   red_card
+4   double_yellow_card
+5   substitution
+7   period_start
+8   period_end
+12  blocked_shot        (shot by player is blocked)
+14  foul
+15  offside
+16  corner_kick
+17  blocked_shot        shot is blocked by player
+18  foul
+19  unknown
+22  unknown
+24  match_time          updates when the match time is going
+26  match_end
+32  crossbar
+33  crossbar
+34  own_goal            goal (own)
+37  handball            foul (handball)
+39  free_kick_goal      goal (free_kick)
+41  penalty_goal        goal (penalty)
+44  free_kick_crossbar  crossbar (free_kick)
+60  penalty_missed      miss (penalty)
+65  penalty_missed      miss (penalty)
+72  var_penalty
+
+
+
+  FIFAMatchEvent France v Argentina: Unknown event received (1) +30s
+    FIFAMatchEvent { EventId: '-2105105840', IdTeam: '43922', IdPlayer:
+    'BANEGA', IdSubPlayer: 'Unknown (null)', Timestamp:
+    '2018-06-30T14:41:04.878Z', MatchMinute: '42\'', Period: 3, HomeGoals: 1,
+    AwayGoals: 1, Type: 1, TypeLocalized: [], PositionX: -0.572952, PositionY:
+    -0.212353, GoalGatePositionX: null, GoalGatePositionY: null,
+    GoalGatePositionZ: null, VarDetail: null, HomePenaltyGoals: 0,
+    AwayPenaltyGoals: 0 } +0ms
+
+
+ignore foul type 14
+doFoul (18) by IdPlayer against IdSubPlayer
+
+doUnknown (13) by IdPlayer (goal attempt? missed goal)
+
+
+
+
+corner kick can be updated with player
+
+
+Team is wrong.
+Change to "Ramos (Spain) commits a foul."
+Spain v Russia (FIFA World Cup™) Foul by RAMOS (Russia) against FERNANDES
+
+
+Diego COSTA (Spain) is ruled offside.
+  FIFAMatchEvent Spain v Russia: Missing method for event (doOffside, 15) +0ms
+    FIFAMatchEvent { EventId: '-464715718', IdTeam: '43969', IdPlayer: 'DIEGO
+    COSTA', IdSubPlayer: null, Timestamp: '2018-07-01T15:21:23.516Z',
+    MatchMinute: '64\'', Period: 5, HomeGoals: 1, AwayGoals: 1, Type: 15,
+    TypeLocalized: [], PositionX: null, PositionY: null, GoalGatePositionX:
+    null, GoalGatePositionY: null, GoalGatePositionZ: null, VarDetail: null,
+    HomePenaltyGoals: 0, AwayPenaltyGoals: 0 } +0ms
+
+
+First period of EXTRA TIME!
+  FIFAMatchEvent Spain v Russia (FIFA World Cup™): Invalid period value! +1m
+    FIFAMatchEvent Sending: { home_team: 'Spain', away_team: 'Russia', period:
+    undefined, time: '90\'', competition: 'FIFA World Cup™', match: 'Spain v
+    Russia', meta: { competition_id: '17', season_id: '254645', stage_id:
+    '275093', match_id: '300331517' } } +0ms
+  FIFAMatchEvent { EventId: '1935522157', IdTeam: null, IdPlayer: null,
+  IdSubPlayer: null, Timestamp: '2018-07-01T15:56:52.098Z', MatchMinute: '90\'',
+  Period: 7, HomeGoals: 1, AwayGoals: 1, Type: 7, TypeLocalized: [], PositionX:
+  null, PositionY: null, GoalGatePositionX: null, GoalGatePositionY: null,
+  GoalGatePositionZ: null, VarDetail: null, HomePenaltyGoals: 0,
+  AwayPenaltyGoals: 0 } +0ms
+
+
+End of first extra time
+Spain v Russia (FIFA World Cup™) 🚫  105'+1' Shot blocked by AKINFEEV (Russia)
+  FIFAMatchEvent Spain v Russia (FIFA World Cup™): Invalid period value! Spain 1
+  1 Russia +30s
+    FIFAMatchEvent Sending: { home_team: 'Spain', home_score: 1, away_team:
+    'Russia', away_score: 1, period: undefined, time: '105\'+2\'', competition:
+    'FIFA World Cup™', match: 'Spain v Russia', meta: { competition_id: '17',
+    season_id: '254645', stage_id: '275093', match_id: '300331517' } } +1ms
+      FIFAMatchEvent { EventId: '1705244121', IdTeam: null, IdPlayer: null,
+      IdSubPlayer: null, Timestamp: '2018-07-01T16:12:58.788Z', MatchMinute:
+      '105\'+2\'', Period: 7, HomeGoals: 1, AwayGoals: 1, Type: 8,
+      TypeLocalized: [], PositionX: null, PositionY: null, GoalGatePositionX:
+      null, GoalGatePositionY: null, GoalGatePositionZ: null, VarDetail: null,
+      HomePenaltyGoals: 0, AwayPenaltyGoals: 0 } +0ms
+      Spain v Russia (FIFA World Cup™) 🕛   Spain 1:1 Russia
+
+
+start of second extra time
+  FIFAMatchEvent Spain v Russia (FIFA World Cup™): Invalid period value! +2m
+    FIFAMatchEvent Sending: { home_team: 'Spain', away_team: 'Russia', period:
+    undefined, time: '105\'', competition: 'FIFA World Cup™', match: 'Spain v
+    Russia', meta: { competition_id: '17', season_id: '254645', stage_id:
+    '275093', match_id: '300331517' } } +0ms
+      FIFAMatchEvent { EventId: '-310564618', IdTeam: null, IdPlayer: null,
+      IdSubPlayer: null, Timestamp: '2018-07-01T16:14:54.988Z', MatchMinute:
+      '105\'', Period: 9, HomeGoals: 1, AwayGoals: 1, Type: 7, TypeLocalized:
+      [], PositionX: null, PositionY: null, GoalGatePositionX: null,
+      GoalGatePositionY: null, GoalGatePositionZ: null, VarDetail: null,
+      HomePenaltyGoals: 0, AwayPenaltyGoals: 0 } +1ms
+      Spain v Russia (FIFA World Cup™) 🕛
+
+end of second extra time
+  FIFAMatchEvent Spain v Russia (FIFA World Cup™): Invalid period value! Spain 1
+  1 Russia +0ms
+    FIFAMatchEvent Sending: { home_team: 'Spain', home_score: 1, away_team:
+    'Russia', away_score: 1, period: undefined, time: '120\'+2\'', competition:
+    'FIFA World Cup™', match: 'Spain v Russia', meta: { competition_id: '17',
+    season_id: '254645', stage_id: '275093', match_id: '300331517' } } +0ms
+      FIFAMatchEvent { EventId: '-1201023490', IdTeam: null, IdPlayer: null,
+      IdSubPlayer: null, Timestamp: '2018-07-01T16:30:59.246Z', MatchMinute:
+      '120\'+2\'', Period: 9, HomeGoals: 1, AwayGoals: 1, Type: 8,
+      TypeLocalized: [], PositionX: null, PositionY: null, GoalGatePositionX:
+      null, GoalGatePositionY: null, GoalGatePositionZ: null, VarDetail: null,
+      HomePenaltyGoals: 0, AwayPenaltyGoals: 0 } +1ms
+      Spain v Russia (FIFA World Cup™) 🕛   Spain 1:1 Russia
+
+
+
+
+
+
+
+
+1'  Goal! M. Jorgensen (Denmark)    CRO 0:1 DEN
+    EventId: -796104183
+    IdPlayer: null??
+    Type: 0
+4'  Goal! Mandzukic (Croatia)       CRO 1:1 DEN
+    EventId: -2116817482
+    Type: 0
+6'  Foul by Cornelius (Denmark)
+    EventId: 387111494
+    Type: 18
+10' Foul by DELANEY (Denmark)
+    EventId: -1074891007
+    Type: 18
+11' Foul by Jorgensen (Denmark)
+    EventId: 516461175
+    Type: 18
+12' Delaney (Denmark) blocks a shot.
+    EventId: -905163707
+    IdPlayer: null??
+    Type: 17
+13' Corner shot by MODRIC (Croatia)
+    EventId: -622107215
+    Type: 16
+19' Dalsgaard (Denmark) blocks a shot
+    EventId: -230330420
+    IdPlayer: Misrepresented as YURARY??
+    Type: 17
+23' VIDA (Croatia) blocks a shot
+    EventId: -903837902
+    IdPlayer: null??
+    Type: 17
+    Team reported as Denmark???
+23' Braitwaite (Denmark) taks a corner kick.
+    EventId: -1901199007
+    Type: 16
+    IdPlayer: ERIKSEN???
+25' Foul by Braithwaite (Denmark)
+    EventId: -1452963273
+    Type: 18
+27' Subasic (Croatia) blocks a shot
+    EventId: -757864711
+    Type: 17
+28' Foul by Delaney (Denmark)
+    EventId: -160844313
+    Type : 18
+29' Schmeichel (Denmark) blocks a shot
+    EventId: 1967555827
+    Type: 17
+31' Eriksen (Denmark) takes a corner kick.
+    EventId: -1922924132
+    Type: 16
+32' Christensen (Denmark) blocks a shot.
+    EventId: 1330071829
+    Type: 17
+33' Foul by Strinic (Croatia)
+    EventId: 1774078947
+    Type: 18
+37' Foul by Delaney (Denmark)
+    EventId: 393010576
+    Type: 18
+37' Foul by Poulsen (Denmark)
+    EventId: -1901387114
+    Type: 18
+38' Foul by Dalsgaard (Denmark)
+    EventId: -784312123
+    Type: 18
+40' Foul by Rakitic (Croatia)
+    EventId: -928547381
+    Type: 18
+42' Eriksen (Denmark) hits the crossbar!
+    EventId: 784991007
+    Type: 13
+44' Schmeichel (Denmark) blocks a shot.
+    EventId: -1704643753
+    Type: 17
+46' Substitution Schone <> Christensen (Denmark)
+    EventId: 1713959028
+    Type: 5
+48' Foul by Dalsgaard (Denmark)
+    EventId: -697531911
+    Type: 18
+End of the first half
+    EventId: 931500943
+    Type: 8
+Start of the second half
+    EventId: -202754665
+    Type: 7
+50' Mandzukic (Croatia) is offside
+    EventId: 571007312
+    Type: 15
+53' Foul by Knudsen (Denmark)
+    EventId: 1582265809
+    Type: 18
+55' Foul by Poulsen (Denmark)
+    EventId: 516394219
+    Type: 18
+57' Foul by Modric (Croatia)
+    EventId: -336460965
+    Type: 18
+61' Foul by Braithwaite (Denmark)
+    EventId: -955999551
+    Type: 18
+63' Foul by Madzukic (Croatia)
+    EventId: -1164909755
+    Type: 18
+64' Dalsgaard (Denmark) blocks a shot.
+    EventId: -304491965
+    Type: 17
+    IdPlayer: null???
+65' Modric (Croatia) takes a corner kick
+    EventId: 516609109
+    Type: 16
+65' Poulsen (Denmark) blocks a shot
+    EventId: -143130934
+    Type: 17
+66' Foul by Delaney (Denmark)
+    EventId: -1760031923
+    Type: 18
+66' Substitution Jorgensen <> Cornelius (Denmark)
+    EventId: 296271209
+    Type: 5
+68' Rebic (Croatia) illegally handles the ball
+    EventId: 59520930
+    Type: 37
+71' Substitution Kovacic <> Brozovic (Croatia)
+    EventId: -1218319007
+    Type: 5
+72' Subasic (Croatia) blocks a shot
+    EventId: 557901259
+    Type: 17
+75' Foul by Poulsen (Denmark)
+    EventId: -821211826
+    Type: 18
+78' Schmeichel (Denmark) blocks a shot
+    EventId: -1044443958
+    Type: 17
+81' Substitution Pivaric <> Strinic
+    EventId: 1931165047
+    Type: 5
+82' Foul by Poulsen
+    EventId: -702285609
+    Type: 18
+85' Foul by Pivaric (Croatia)
+    EventId: -181121141
+    Type: 14 <--
+    Not in FIFA app?
+86' Poulsen (Denmark) blocks a shot
+    EventId: 230323609
+    Type: 17
+87' Modric (Croatia) takes a corner kick
+    EventId: -116217674
+    Type: 16
+87' Schmeichel (Denmark) blocks a shot
+    EventId: -1331681286
+    Type: 17
+90'+3' Eriksen (Denmark) takes a corner kick
+    EventId: 2124986892
+    Type: 16
+End of second half
+    EventId: 1415972114
+    Type: 8
+    Period: 5
+Start of first extra time
+    EventId: 1396138699
+    Type: 7
+    Period: 7
+92' Rakitic (Croatia) blocks a shot
+    EventId: 2091347049
+    Type: 17
+96' Eriksen (Denmark) takes a corner kick
+    Updated 68647193 for time :(
+    EventId: 68647193
+    Type: 16
+97' Substitution Kramaric <> Perisic Croatia
+    EventId: -41389712
+    Type: 5
+98' Substitution Krohn-Dehli <> Delaney (Denmark)
+    EventId: 382910365
+    Type: 5
+100' Foul by  Schone
+    EventId: 1352753153
+    Type: 18
+102' Mandzukic (Croatia) is offside
+    EventId: 1325635960
+    Type: 15
+104' Schmeichel (Denmark) blocks a shot
+    EventId: -1875306869
+    Type: 17
+104' Modric (Croatia) takes a corner kick
+    EventId: -1327286698
+    Type: 16
+105' Modric (Croatia) takes a corner kick
+    EventId: -1327286698
+    Type: 16
+End of first extra time
+    EventId: -1758783133
+    Type: 8
+    Period: 7
+105' Substitution Sisto <> Braithwaite (Denmark)
+    EventId: -660957238
+    Type: 5
+Start of second extra time
+    EventId: 1043516234
+    Type: 7
+    Period: 9
+106' Schone (Denmark) blocks a shot
+    EventId: -1595125683
+    Type: 17
+108' Substitution Badelj <> Manzukic (Croatia)
+    EventId: 1453430948
+    Type: 5
+110' Foul by Jorgensen (Denmakr)
+    EventId: -749749534
+    Type: 18
+114' Rebic (Croatia) is foulded inside the box by Jorgensen (Denmark) - Penalty for Croatia
+    EventId: -2119577272
+    Type: 72
+115' Yellow card for Jorgensen (Denmark)
+    EventId: 167323925
+    Type: 2
+116' Penalty missed by Modric (Croatia)
+    EventId: 605320860
+    Type: 60
+116' Schmeichel (Denmark) blocks a shot
+    EventId: 638151150
+    Type: 17
+117' Foul by Jorgensen (Denmark)
+    EventId: 1054594791
+    Type: 18
+119' Schmeichel (Denmark) blocks a shot
+    EventId: 965495801
+    Type: 17
+End of second extra time
+    EventId: -1934368590
+    Type: 8
+    Period: 9
+Penalty shootout has begun
+    EventId: -1519866999
+    Type: 7
+    Period: 11
+Penalty missed by Eriksen (Croatia)
+    EventId: 267993034
+    Type: 60
+    HomePenaltyGoals: 0
+    AwayPenaltyGoals: 0
+Penalty missed by Badelj (Denmark)
+    EventId: -1486253516
+    Type: 60
+    HomePenaltyGoals: 0
+    AwayPenaltyGoals: 0
+Penalty scored by Subasic
+    EventId: 727900990
+    Type: 41
+    HomePenaltyGoals: 0
+    AwayPenaltyGoals: 1
+Penalty scored by Schmeichel
+    EventId: 1244288486
+    Type: 41
+    HomePenaltyGoals: 1
+    AwayPenaltyGoals: 1
+Penalty scored by Subasic
+    EventId: -1935791122
+    Type: 41
+    HomePenaltyGoals: 1
+    AwayPenaltyGoals: 2
+Penalty scored by Schmeichel
+    EventId: 610724165
+    Type: 41
+    HomePenaltyGoals: 2
+    AwayPenaltyGoals: 2
+Penalty missed by Schone
+    EventId: -1218872399
+    Type: 60
+    HomePenaltyGoals: 2
+    AwayPenaltyGoals: 2
+Penalty missed by Pivaric
+    EventId: 2020951884
+    Type: 60
+    HomePenaltyGoals: 2
+    AwayPenaltyGoals: 2
+Penalty missed by Jorgensen
+    EventId: 1636264881
+    Type: 60
+    HomePenaltyGoals: 2
+    AwayPenaltyGoals: 2
+Penalty scored by Schmeichel (Croatia)
+    EventId: -1367924212
+    Type: 41
+    HomePenaltyGoals: 3
+    AwayPenaltyGoals: 2
+End of penalty shootout
+    EventId: -1340390575
+    Type: 8
+    Period: 11
+End of match
+    EventId: -1367924212
+    Type: 26
+    Period: 10
+
+delete this.matches[event.meta.match_id]
+
+
+

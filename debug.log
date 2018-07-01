@@ -1,0 +1,342 @@
+yarn run v1.6.0
+$ yarn run prepublish && babel-node test.js
+$ yarn run build
+$ babel src/ -d lib/
+src/api/FIFA.js -> lib/api/FIFA.js
+src/api/FIFAMatch.js -> lib/api/FIFAMatch.js
+src/api/FIFAMatchEvent.js -> lib/api/FIFAMatchEvent.js
+src/api/common.js -> lib/api/common.js
+[2mCroatia v Denmark (FIFA World Cup™)[22m ⚽️  2' GOOOOAAAALLL by [1mSUBAŠIĆ[22m (Denmark)!! Croatia [1m0[22m:[1m1[22m Denmark
+[2mCroatia v Denmark (FIFA World Cup™)[22m ⚽️  4' GOOOOAAAALLL by [1mSCHMEICHEL[22m (Croatia)!! Croatia [1m1[22m:[1m1[22m Denmark
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  4' Shot blocked by [1mVRSALJKO[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m Foul by [1mCORNELIUS[22m (Denmark) against [1mLOVREN[22m
+[2mCroatia v Denmark (FIFA World Cup™)[22m Foul by [1mDELANEY[22m (Denmark) against [1mMODRIĆ[22m
+[2mCroatia v Denmark (FIFA World Cup™)[22m Foul by [1mM. JØRGENSEN[22m (Denmark) against [1mREBIĆ[22m
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  12' Shot blocked by [1mPERIŠIĆ[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  12' Shot blocked by [1mDenmark[22m
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  19' Shot blocked by [1mPERIŠIĆ[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  19' Shot blocked by [1mYURARY[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  23' Shot blocked by [1mERIKSEN[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  23' Shot blocked by [1mDenmark[22m
+[2mCroatia v Denmark (FIFA World Cup™)[22m Foul by [1mBRAITHWAITE[22m (Denmark) against [1mVRSALJKO[22m
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  27' Shot blocked by [1mBRAITHWAITE[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  27' Shot blocked by [1mSUBAŠIĆ[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m Foul by [1mDELANEY[22m (Denmark) against [1mRAKITIĆ[22m
+[2mCroatia v Denmark (FIFA World Cup™)[22m Foul by [1mBROZOVIĆ[22m (Denmark) 
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  29' Shot blocked by [1mRAKITIĆ[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  29' Shot blocked by [1mSCHMEICHEL[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  29' Shot blocked by [1mPERIŠIĆ[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  32' Shot blocked by [1mREBIĆ[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  32' Shot blocked by [1mCHRISTENSEN[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m Foul by [1mSTRINIĆ[22m (Denmark) against [1mCHRISTENSEN[22m
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  34' Shot blocked by [1mERIKSEN[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m Foul by [1mDELANEY[22m (Denmark) against [1mMODRIĆ[22m
+[2mCroatia v Denmark (FIFA World Cup™)[22m Foul by [1mYURARY[22m (Denmark) against [1mRAKITIĆ[22m
+[2mCroatia v Denmark (FIFA World Cup™)[22m Foul by [1mDALSGAARD[22m (Denmark) against [1mREBIĆ[22m
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  39' Shot blocked by [1mLOVREN[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m Foul by [1mRAKITIĆ[22m (Denmark) against [1mYURARY[22m
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  45' Shot blocked by [1mRAKITIĆ[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  45' Shot blocked by [1mSCHMEICHEL[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🕛  End of the first half. Croatia [1m1[22m:[1m1[22m Denmark
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🔄  46' [1mSCHÖNE[22m comes in for [1mCHRISTENSEN[22m
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🕛  The second half of the match has begun!
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  46' Shot blocked by [1mPERIŠIĆ[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m Foul by [1mDALSGAARD[22m (Denmark) against [1mREBIĆ[22m
+[2mCroatia v Denmark (FIFA World Cup™)[22m Foul by [1mKNUDSEN[22m (Denmark) against [1mPERIŠIĆ[22m
+[2mCroatia v Denmark (FIFA World Cup™)[22m Foul by [1mYURARY[22m (Denmark) against [1mBROZOVIĆ[22m
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  56' Shot blocked by [1mBRAITHWAITE[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m Foul by [1mMODRIĆ[22m (Denmark) against [1mDELANEY[22m
+[2mCroatia v Denmark (FIFA World Cup™)[22m Foul by [1mBRAITHWAITE[22m (Denmark) against [1mVRSALJKO[22m
+[2mCroatia v Denmark (FIFA World Cup™)[22m Foul by [1mRAKITIĆ[22m (Denmark) 
+[2mCroatia v Denmark (FIFA World Cup™)[22m Foul by [1mMANDŽUKIĆ[22m (Denmark) against [1mKJÆR[22m
+[2mCroatia v Denmark (FIFA World Cup™)[22m Foul by [1mKJÆR[22m (Denmark) 
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  64' Shot blocked by [1mPERIŠIĆ[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  64' Shot blocked by [1mDenmark[22m
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  65' Shot blocked by [1mREBIĆ[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  65' Shot blocked by [1mYURARY[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m Foul by [1mDELANEY[22m (Denmark) against [1mRAKITIĆ[22m
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🔄  66' [1mN. JØRGENSEN[22m comes in for [1mCORNELIUS[22m
+[2mCroatia v Denmark (FIFA World Cup™)[22m Foul by [1mVIDA[22m (Denmark) 
+[2mCroatia v Denmark (FIFA World Cup™)[22m Foul by [1mREBIĆ[22m (Denmark) 
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🔄  71' [1mKOVAČIĆ[22m comes in for [1mBROZOVIĆ[22m
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  72' Shot blocked by [1mN. JØRGENSEN[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  72' Shot blocked by [1mSUBAŠIĆ[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  74' Shot blocked by [1mERIKSEN[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m Foul by [1mYURARY[22m (Denmark) against [1mSTRINIĆ[22m
+[2mCroatia v Denmark (FIFA World Cup™)[22m Foul by [1mRAKITIĆ[22m (Denmark) 
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  77' Shot blocked by [1mMODRIĆ[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  78' Shot blocked by [1mREBIĆ[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  78' Shot blocked by [1mSCHMEICHEL[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🔄  81' [1mPIVARIĆ[22m comes in for [1mSTRINIĆ[22m
+[2mCroatia v Denmark (FIFA World Cup™)[22m Foul by [1mYURARY[22m (Denmark) against [1mKOVAČIĆ[22m
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  84' Shot blocked by [1mPERIŠIĆ[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m Foul by [1mPIVARIĆ[22m (Denmark) 
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  86' Shot blocked by [1mYURARY[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  87' Shot blocked by [1mRAKITIĆ[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  87' Shot blocked by [1mSCHMEICHEL[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  87' Shot blocked by [1mSCHÖNE[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  90'+2' Shot blocked by [1mRAKITIĆ[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  90'+3' Shot blocked by [1mBRAITHWAITE[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🕛  End of the second half. Croatia [1m1[22m:[1m1[22m Denmark
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🕛  
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  92' Shot blocked by [1mDenmark[22m
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  93' Shot blocked by [1mSCHÖNE[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🔄  97' [1mKRAMARIĆ[22m comes in for [1mPERIŠIĆ[22m
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🔄  98' [1mKROHN-DEHLI[22m comes in for [1mDELANEY[22m
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  99' Shot blocked by [1mSCHÖNE[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m Foul by [1mSCHÖNE[22m (Denmark) against [1mKOVAČIĆ[22m
+[2mCroatia v Denmark (FIFA World Cup™)[22m Foul by [1mSCHMEICHEL[22m (Denmark) 
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  104' Shot blocked by [1mSCHMEICHEL[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🕛   Croatia [1m1[22m:[1m1[22m Denmark
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🔄  105' [1mSISTO[22m comes in for [1mBRAITHWAITE[22m
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🕛  
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  106' Shot blocked by [1mKOVAČIĆ[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  106' Shot blocked by [1mSCHÖNE[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  108' Shot blocked by [1mSISTO[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🔄  108' [1mBADELJ[22m comes in for [1mMANDŽUKIĆ[22m
+[2mCroatia v Denmark (FIFA World Cup™)[22m Foul by [1mM. JØRGENSEN[22m (Denmark) against [1mREBIĆ[22m
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  113' Shot blocked by [1mN. JØRGENSEN[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚩  115' Yellow Card for [1mM. JØRGENSEN[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  116' Penalty missed by [1mMODRIĆ[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  116' Shot blocked by [1mSCHMEICHEL[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  117' Penalty missed by [1mMODRIĆ[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  117' Shot blocked by [1mSCHMEICHEL[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m Foul by [1mN. JØRGENSEN[22m (Denmark) against [1mBADELJ[22m
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  119' Shot blocked by [1mMODRIĆ[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  119' Shot blocked by [1mSCHMEICHEL[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  120' Shot blocked by [1mKRAMARIĆ[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🕛   Croatia [1m1[22m:[1m1[22m Denmark
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🕛  A penalty shootout has begun!
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  120'+2' Penalty missed by [1mERIKSEN[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  120'+2' Penalty missed by [1mBADELJ[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m ⚽️  120'+3' Penalty GOOOOAAAALLL by [1mSUBAŠIĆ[22m (Denmark)!! Croatia [1m1[22m:[1m1[22m Denmark
+[2mCroatia v Denmark (FIFA World Cup™)[22m ⚽️  120'+4' Penalty GOOOOAAAALLL by [1mSCHMEICHEL[22m (Croatia)!! Croatia [1m1[22m:[1m1[22m Denmark
+[2mCroatia v Denmark (FIFA World Cup™)[22m ⚽️  120'+5' Penalty GOOOOAAAALLL by [1mSUBAŠIĆ[22m (Denmark)!! Croatia [1m1[22m:[1m1[22m Denmark
+[2mCroatia v Denmark (FIFA World Cup™)[22m ⚽️  120'+5' Penalty GOOOOAAAALLL by [1mSCHMEICHEL[22m (Croatia)!! Croatia [1m1[22m:[1m1[22m Denmark
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  120'+6' Penalty missed by [1mSCHÖNE[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  120'+7' Penalty missed by [1mPIVARIĆ[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🚫  120'+8' Penalty missed by [1mN. JØRGENSEN[22m (Denmark)
+[2mCroatia v Denmark (FIFA World Cup™)[22m ⚽️  120'+9' Penalty GOOOOAAAALLL by [1mSCHMEICHEL[22m (Croatia)!! Croatia [1m1[22m:[1m1[22m Denmark
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🕛  End of the penalty shootout. Croatia [1m1[22m:[1m1[22m Denmark
+{ home_team: 'Croatia',
+  home_score: 1,
+  away_team: 'Denmark',
+  away_score: 1,
+  time: '0\'',
+  competition: 'FIFA World Cup™',
+  match: 'Croatia v Denmark',
+  meta: 
+   { competition_id: '17',
+     season_id: '254645',
+     stage_id: '275093',
+     match_id: '300331498' },
+  type: 'match_end' } { '300331498': 
+   FIFAMatch {
+     competition_id: '17',
+     season_id: '254645',
+     stage_id: '275093',
+     match_id: '300331498',
+     period: 3,
+     players: 
+      { '241559': 'MODRIĆ',
+        '278388': 'SCHMEICHEL',
+        '296633': 'RAKITIĆ',
+        '297373': 'ĆORLUKA',
+        '297379': 'N. KALINIĆ',
+        '299421': 'KVIST',
+        '299887': 'SUBAŠIĆ',
+        '299896': 'VIDA',
+        '302550': 'KROHN-DEHLI',
+        '309962': 'KJÆR',
+        '312432': 'LOVREN',
+        '313907': 'SCHÖNE',
+        '318462': 'LÖSSL',
+        '318477': 'DALSGAARD',
+        '318485': 'M. JØRGENSEN',
+        '321716': 'ERIKSEN',
+        '336131': 'FISCHER',
+        '336133': 'YURARY',
+        '336472': 'KRAMARIĆ',
+        '336485': 'VRSALJKO',
+        '339987': 'KOVAČIĆ',
+        '357988': 'STRINIĆ',
+        '357991': 'BADELJ',
+        '358302': 'VESTERGAARD',
+        '359381': 'PERIŠIĆ',
+        '360184': 'N. JØRGENSEN',
+        '360188': 'CORNELIUS',
+        '365738': 'KNUDSEN',
+        '369029': 'LIVAKOVIĆ',
+        '369057': 'PJACA',
+        '369058': 'REBIĆ',
+        '372424': 'ĆALETA-CAR',
+        '372855': 'DELANEY',
+        '372857': 'BRAITHWAITE',
+        '372987': 'JEDVAJ',
+        '375261': 'PIVARIĆ',
+        '375518': 'MANDŽUKIĆ',
+        '376287': 'L. KALINIĆ',
+        '380000': 'BROZOVIĆ',
+        '395448': 'SISTO',
+        '395455': 'STRYGER',
+        '401281': 'CHRISTENSEN',
+        '401283': 'RØNNOW',
+        '402096': 'DOLBERG',
+        '402149': 'BRADARIĆ',
+        '405205': 'LERAGER' },
+     last_event: 1530477957602,
+     home_team_id: '43938',
+     home_team: 'Croatia',
+     away_team_id: '43941',
+     away_team: 'Denmark',
+     competition_name: 'FIFA World Cup™' } }
+Remove event?
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🕛  The match has ended. Croatia [1m1[22m:[1m1[22m Denmark
+{ home_team: 'Croatia',
+  home_score: 1,
+  away_team: 'Denmark',
+  away_score: 1,
+  time: '0\'',
+  competition: 'FIFA World Cup™',
+  match: 'Croatia v Denmark',
+  meta: 
+   { competition_id: '17',
+     season_id: '254645',
+     stage_id: '275093',
+     match_id: '300331498' },
+  type: 'match_end' } { '300331498': 
+   FIFAMatch {
+     competition_id: '17',
+     season_id: '254645',
+     stage_id: '275093',
+     match_id: '300331498',
+     period: 3,
+     players: 
+      { '241559': 'MODRIĆ',
+        '278388': 'SCHMEICHEL',
+        '296633': 'RAKITIĆ',
+        '297373': 'ĆORLUKA',
+        '297379': 'N. KALINIĆ',
+        '299421': 'KVIST',
+        '299887': 'SUBAŠIĆ',
+        '299896': 'VIDA',
+        '302550': 'KROHN-DEHLI',
+        '309962': 'KJÆR',
+        '312432': 'LOVREN',
+        '313907': 'SCHÖNE',
+        '318462': 'LÖSSL',
+        '318477': 'DALSGAARD',
+        '318485': 'M. JØRGENSEN',
+        '321716': 'ERIKSEN',
+        '336131': 'FISCHER',
+        '336133': 'YURARY',
+        '336472': 'KRAMARIĆ',
+        '336485': 'VRSALJKO',
+        '339987': 'KOVAČIĆ',
+        '357988': 'STRINIĆ',
+        '357991': 'BADELJ',
+        '358302': 'VESTERGAARD',
+        '359381': 'PERIŠIĆ',
+        '360184': 'N. JØRGENSEN',
+        '360188': 'CORNELIUS',
+        '365738': 'KNUDSEN',
+        '369029': 'LIVAKOVIĆ',
+        '369057': 'PJACA',
+        '369058': 'REBIĆ',
+        '372424': 'ĆALETA-CAR',
+        '372855': 'DELANEY',
+        '372857': 'BRAITHWAITE',
+        '372987': 'JEDVAJ',
+        '375261': 'PIVARIĆ',
+        '375518': 'MANDŽUKIĆ',
+        '376287': 'L. KALINIĆ',
+        '380000': 'BROZOVIĆ',
+        '395448': 'SISTO',
+        '395455': 'STRYGER',
+        '401281': 'CHRISTENSEN',
+        '401283': 'RØNNOW',
+        '402096': 'DOLBERG',
+        '402149': 'BRADARIĆ',
+        '405205': 'LERAGER' },
+     last_event: 1530478057927,
+     home_team_id: '43938',
+     home_team: 'Croatia',
+     away_team_id: '43941',
+     away_team: 'Denmark',
+     competition_name: 'FIFA World Cup™' } }
+Remove event?
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🕛  The match has ended. Croatia [1m1[22m:[1m1[22m Denmark
+{ home_team: 'Croatia',
+  home_score: 1,
+  away_team: 'Denmark',
+  away_score: 1,
+  time: '0\'',
+  competition: 'FIFA World Cup™',
+  match: 'Croatia v Denmark',
+  meta: 
+   { competition_id: '17',
+     season_id: '254645',
+     stage_id: '275093',
+     match_id: '300331498' },
+  type: 'match_end' } { '300331498': 
+   FIFAMatch {
+     competition_id: '17',
+     season_id: '254645',
+     stage_id: '275093',
+     match_id: '300331498',
+     period: 3,
+     players: 
+      { '241559': 'MODRIĆ',
+        '278388': 'SCHMEICHEL',
+        '296633': 'RAKITIĆ',
+        '297373': 'ĆORLUKA',
+        '297379': 'N. KALINIĆ',
+        '299421': 'KVIST',
+        '299887': 'SUBAŠIĆ',
+        '299896': 'VIDA',
+        '302550': 'KROHN-DEHLI',
+        '309962': 'KJÆR',
+        '312432': 'LOVREN',
+        '313907': 'SCHÖNE',
+        '318462': 'LÖSSL',
+        '318477': 'DALSGAARD',
+        '318485': 'M. JØRGENSEN',
+        '321716': 'ERIKSEN',
+        '336131': 'FISCHER',
+        '336133': 'YURARY',
+        '336472': 'KRAMARIĆ',
+        '336485': 'VRSALJKO',
+        '339987': 'KOVAČIĆ',
+        '357988': 'STRINIĆ',
+        '357991': 'BADELJ',
+        '358302': 'VESTERGAARD',
+        '359381': 'PERIŠIĆ',
+        '360184': 'N. JØRGENSEN',
+        '360188': 'CORNELIUS',
+        '365738': 'KNUDSEN',
+        '369029': 'LIVAKOVIĆ',
+        '369057': 'PJACA',
+        '369058': 'REBIĆ',
+        '372424': 'ĆALETA-CAR',
+        '372855': 'DELANEY',
+        '372857': 'BRAITHWAITE',
+        '372987': 'JEDVAJ',
+        '375261': 'PIVARIĆ',
+        '375518': 'MANDŽUKIĆ',
+        '376287': 'L. KALINIĆ',
+        '380000': 'BROZOVIĆ',
+        '395448': 'SISTO',
+        '395455': 'STRYGER',
+        '401281': 'CHRISTENSEN',
+        '401283': 'RØNNOW',
+        '402096': 'DOLBERG',
+        '402149': 'BRADARIĆ',
+        '405205': 'LERAGER' },
+     last_event: 1530478307616,
+     home_team_id: '43938',
+     home_team: 'Croatia',
+     away_team_id: '43941',
+     away_team: 'Denmark',
+     competition_name: 'FIFA World Cup™' } }
+Remove event?
+[2mCroatia v Denmark (FIFA World Cup™)[22m 🕛  The match has ended. Croatia [1m1[22m:[1m1[22m Denmark
