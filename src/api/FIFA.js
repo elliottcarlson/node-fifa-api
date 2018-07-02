@@ -24,10 +24,7 @@ export default class FIFA extends EventEmitter {
 
     update_matches() {
         rq(ACTIVE_URL, { json: true }).then((json) => {
-            const active = json.Results.filter((match) => {
-                return match.IdCompetition == this.competition;
-            });
-            //const active = json.Results;
+            const active = json.Results;
 
             // No active matches.
             if (!active) {
@@ -38,6 +35,7 @@ export default class FIFA extends EventEmitter {
             active.forEach((match) => {
                 if (!(match.IdMatch in this.matches)) {
                     this.matches[match.IdMatch] = new FIFAMatch(match);
+                    this.emit('match', this.matches[match.IdMatch]);
                 }
             });
 
@@ -48,8 +46,7 @@ export default class FIFA extends EventEmitter {
     }
 
     remove_match(event: FIFAMatchEvent) {
-        console.log(event, this.matches);
-        console.log('Remove event?');
+        this.matches[event.meta.match_id].stop();
     }
 
     sleep(ms: number) {
@@ -58,7 +55,7 @@ export default class FIFA extends EventEmitter {
         });
     }
 
-    async watch() {
+    async start() {
         await this.update_matches();
 
         await Object.entries(this.matches).forEach(([id: number, match: FIFAMatch]) => {
@@ -75,6 +72,6 @@ export default class FIFA extends EventEmitter {
         });
 
         await this.sleep(15000);
-        return this.watch();
+        return this.start();
     }
 }

@@ -20,6 +20,7 @@ export default class FIFAMatch {
     players: Object;
     last_event: number;
     period: string;
+    watching: boolean;
 
     constructor(match: Object) {
         this.competition_id = match.IdCompetition;
@@ -29,14 +30,18 @@ export default class FIFAMatch {
         this.period = match.Period;
         this.players = {};
         this.last_event = Date.now();// - 3600000;
+        this.watching = false;
 
         this.home_team_id = match.HomeTeam.IdTeam;
         match.HomeTeam.TeamName.forEach((team) => {
             this.home_team = team.Description;
         });
         match.HomeTeam.Players.forEach((player) => {
-            player.ShortName.forEach((info) => {
-                this.players[player.IdPlayer] = info.Description;
+            player.PlayerName.forEach((info) => {
+                this.players[player.IdPlayer] = {
+                    name: info.Description,
+                    team: this.home_team,
+                };
             });
         });
 
@@ -45,8 +50,11 @@ export default class FIFAMatch {
             this.away_team = team.Description;
         });
         match.AwayTeam.Players.forEach((player) => {
-            player.ShortName.forEach((info) => {
-                this.players[player.IdPlayer] = info.Description;
+            player.PlayerName.forEach((info) => {
+                this.players[player.IdPlayer] = {
+                    name: info.Description,
+                    team: this.away_team,
+                };
             });
         });
 
@@ -58,27 +66,19 @@ export default class FIFAMatch {
             });
         });
 
-        debug('Watching match %s', this.name);
+        debug('New match available: %s', this.name);
     }
 
     get name() {
         return `${this.home_team} v ${this.away_team}`;
     }
 
-    getPlayerName(id: string) {
-        return this.players[id] || null;
-    }
-
-    getTeamName(id: string) {
-        if (id == this.home_team_id) {
-            return this.home_team;
-        }
-
-        return this.away_team;
-    }
-
     getEvents() {
         return new Promise((resolve) => {
+            if (!this.watching) {
+                resolve([]);
+            }
+
             let events = [];
 
             rq(MATCH_URL(this.competition_id, this.season_id, this.stage_id, this.match_id), {
@@ -96,5 +96,31 @@ export default class FIFAMatch {
                 resolve(events);
             });
         });
+    }
+
+    getPlayerName(id: string) {
+        return (id in this.players ? this.players[id].name : null) || null;
+    }
+
+    getPlayerTeam(id: string) {
+        return (id in this.players ? this.players[id].team : null) || null;
+    }
+
+    getTeamName(id: string) {
+        if (id == this.home_team_id) {
+            return this.home_team;
+        }
+
+        return this.away_team;
+    }
+
+    watch() {
+        this.watching = true;
+        debug('Watching match %s', this.name);
+    }
+
+    stop() {
+        this.watching = false;
+        debug('No longer watching %s', this.name);
     }
 }

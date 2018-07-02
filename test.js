@@ -13,6 +13,9 @@ const eventToString = (string) => {
 class FIFAClient {
     constructor() {
         const api = new FIFA();
+
+        api.on('match', this.watchMatch);
+
         api.on('goal', this.doGoal);
         api.on('yellow_card', this.doCard);
         api.on('red_card', this.doCard);
@@ -23,7 +26,11 @@ class FIFAClient {
         api.on('penalty_missed', this.doPenaltyMissed);
         api.on('foul', this.doFoul);
         api.on('blocked_shot', this.doBlockedShot);
-        api.watch();
+        api.start();
+    }
+
+    watchMatch(match) {
+        match.watch();
     }
 
     doPeriodStart(event) {
