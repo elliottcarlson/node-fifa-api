@@ -1,5 +1,5 @@
 // @flow
-export const BASE_URL = 'https://api.fifa.com/api/v1';
+export const BASE_URL = 'https://api.fifa.com/api/v3';
 export const ACTIVE_URL = `${BASE_URL}/live/football/now`;
 export const COMPETITION_URL = (competition: string) =>
     `${BASE_URL}/competitions/${competition}`;
